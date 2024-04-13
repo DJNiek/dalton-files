@@ -1,0 +1,30 @@
+
+   ******************************************* 
+   **** OUTPUT FROM DALTON SHELL SCRIPT
+   ******************************************* 
+
+   DALTON release Dalton2022.0-dev (2022)
+
+   Invocation: /home3/hb-qchav/Dalton/dalton -noarch -d -get molden.inp -o ccsd_t_h2o_cc-pVDZ_nosym.out ccsd_t h2o_cc-pVDZ_nosym
+
+   Tue Mar 26 12:46:22 CET 2024
+
+   Calculation: ccsd_t_h2o_cc-pVDZ_nosym  (input files: ccsd_t.dal and h2o_cc-pVDZ_nosym.mol)
+   PID        : 851305
+   Input dir  : /home1/s4925076/Sample_inputs_dalton2024_updated/ex4/h2o_ccsd_t
+   Scratch dir: /tmp/DALTON_scratch_s4925076/ccsd_t_h2o_cc-pVDZ_nosym_851305
+
+
+ DALTON: default work memory size used.            64000000
+
+ Work memory size (LMWORK+2):    64000002 =  488.28 megabytes; node   0
+
+   0: Directories for basis set searches:
+     /home1/s4925076/Sample_inputs_dalton2024_updated/ex4/h2o_ccsd_t:/home3/hb-qchav/Dalton/basis
+ccsd_t_h2o_cc-pVDZ_nosym.tar.gz has not been created and has thus not been copied to /home1/s4925076/Sample_inputs_dalton2024_updated/ex4/h2o_ccsd_t
+Copying files requested with -get back from scratch directory
+'molden.inp' -> '/home1/s4925076/Sample_inputs_dalton2024_updated/ex4/h2o_ccsd_t/ccsd_t_h2o_cc-pVDZ_nosym.molden.inp'
+Output is in /home1/s4925076/Sample_inputs_dalton2024_updated/ex4/h2o_ccsd_t/ccsd_t_h2o_cc-pVDZ_nosym.out as requested in input.
+
+   Tue Mar 26 12:46:26 CET 2024
+   ***************************************** 

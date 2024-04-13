@@ -1,0 +1,41 @@
+slurmstepd: error: couldn't chdir to `/tmp/DALTON_scratch_s4925076/ts_saddle_ts_849333': No such file or directory: going to /tmp instead
+
+###############################################################################
+Hábrók Cluster
+Job 7751577 for user s4925076
+Finished at: Tue Mar 26 12:40:07 CET 2024
+
+Job details:
+============
+
+Job ID              : 7751577
+Name                : ethene_opt
+User                : s4925076
+Partition           : regularshort
+Nodes               : node103
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : RUNNING
+Submit              : 2024-03-26T12:39:46
+Start               : 2024-03-26T12:39:47
+End                 : --
+Reserved walltime   : 01:00:00
+Used walltime       : 00:00:20
+Used CPU time       : --
+% User (Computation): --
+% System (I/O)      : --
+Mem reserved        : 2G
+Max Mem (Node/step) : 0.00  (Node unknown, N/A)
+Full Max Mem usage  : 0.00  (Until last completed step)
+Total Disk Read     : 0.00  (Until last completed step)
+Total Disk Write    : 0.00  (Until last completed step)
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

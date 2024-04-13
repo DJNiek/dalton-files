@@ -1,0 +1,34 @@
+
+   ******************************************* 
+   **** OUTPUT FROM DALTON SHELL SCRIPT
+   ******************************************* 
+
+   DALTON release Dalton2022.0-dev (2022)
+
+   Invocation: /home3/hb-qchav/Dalton/dalton -noarch -d -get molden.inp -o ketone_vib_ketone.out ketone_vib ketone
+
+   Tue Mar 26 11:25:42 CET 2024
+
+   Calculation: ketone_vib_ketone  (input files: ketone_vib.dal and ketone.mol)
+   PID        : 838413
+   Input dir  : /home1/s4925076/Sample_inputs_dalton2024_updated/ex3/ketone_vib
+   Scratch dir: /tmp/DALTON_scratch_s4925076/ketone_vib_ketone_838413
+
+
+ DALTON: default work memory size used.            64000000
+
+ Work memory size (LMWORK+2):    64000002 =  488.28 megabytes; node   0
+
+   0: Directories for basis set searches:
+     /home1/s4925076/Sample_inputs_dalton2024_updated/ex3/ketone_vib:/home3/hb-qchav/Dalton/basis
+ketone_vib_ketone.tar.gz has not been created and has thus not been copied to /home1/s4925076/Sample_inputs_dalton2024_updated/ex3/ketone_vib
+Copying files requested with -get back from scratch directory
+'molden.inp' -> '/home1/s4925076/Sample_inputs_dalton2024_updated/ex3/ketone_vib/ketone_vib_ketone.molden.inp'
+Output is in /home1/s4925076/Sample_inputs_dalton2024_updated/ex3/ketone_vib/ketone_vib_ketone.out as requested in input.
+----------------------------------------------------------
+1 WARNINGS have been issued by DALTON,
+output from 'grep -n -i WARNING'  (max 10 warnings):
+1401: WARNING: Vibrational analysis performed at a non-equilibrium geometry,
+
+   Tue Mar 26 11:25:49 CET 2024
+   ***************************************** 

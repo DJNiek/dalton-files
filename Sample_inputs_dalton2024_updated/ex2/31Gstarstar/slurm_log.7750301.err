@@ -1,0 +1,20 @@
+slurmstepd: error: couldn't chdir to `/tmp/DALTON_scratch_s4925076/allyl_opt_allyl_830545': No such file or directory: going to /tmp instead
+
+###############################################################################
+Hábrók Cluster
+Job 7750301 for user s4925076
+Finished at: Tue Mar 26 11:12:42 CET 2024
+
+Job details:
+============
+
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

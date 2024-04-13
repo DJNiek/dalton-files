@@ -1,0 +1,41 @@
+#!/bin/bash
+
+#SBATCH --mem=2"gb"
+#SBATCH --time=0-01:00:00
+#SBATCH --job-name=ethene_opt
+#SBATCH -o slurm_log.%j.err
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --partition=regular
+
+##################################
+# Adjust your filenames here !!  #
+##################################
+
+DAL=enol_vib
+MOL=enol
+
+##################################
+# Don't change anything below !! #
+##################################
+
+# Define job name
+JOB=$DAL"_"$MOL
+
+# Get working directory
+WORK_DIR=$(pwd)
+
+# Set scratch directory
+SCRATCH=$TMPDIR
+
+# Export Dalton scratch
+export DALTON_TMPDIR=$SCRATCH
+
+# Load correct GCC version
+module load intel
+
+# Set path to Dalton program
+export DALTON=/home3/hb-qchav/Dalton/dalton
+
+# Run Dalton
+$DALTON -noarch -d -get 'molden.inp' -o $JOB.out $DAL $MOL >> $WORK_DIR/$JOB.err

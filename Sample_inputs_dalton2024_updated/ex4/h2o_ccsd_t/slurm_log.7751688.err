@@ -1,0 +1,41 @@
+slurmstepd: error: couldn't chdir to `/tmp/DALTON_scratch_s4925076/ccsd_t_h2o_cc-pVDZ_nosym_851305': No such file or directory: going to /tmp instead
+
+###############################################################################
+Hábrók Cluster
+Job 7751688 for user s4925076
+Finished at: Tue Mar 26 12:46:26 CET 2024
+
+Job details:
+============
+
+Job ID              : 7751688
+Name                : ethene_opt
+User                : s4925076
+Partition           : regularshort
+Nodes               : node103
+Number of Nodes     : 1
+Cores               : 1
+Number of Tasks     : 1
+State               : COMPLETED
+Submit              : 2024-03-26T12:46:19
+Start               : 2024-03-26T12:46:20
+End                 : 2024-03-26T12:46:26
+Reserved walltime   : 01:00:00
+Used walltime       : 00:00:06
+Used CPU time       : 00:00:02 (efficiency: 45.70%)
+% User (Computation):  0.00%
+% System (I/O)      : 78.77%
+Mem reserved        : 2G
+Max Mem (Node/step) : 0.00  (Node unknown, N/A)
+Full Max Mem usage  : 0.00 
+Total Disk Read     : 0.00 
+Total Disk Write    : 0.00 
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Hábrók in your publications:
+
+https://wiki.hpc.rug.nl/habrok/introduction/scientific_output
+
+################################################################################

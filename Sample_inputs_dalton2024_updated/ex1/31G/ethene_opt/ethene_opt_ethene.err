@@ -1,0 +1,30 @@
+
+   ******************************************* 
+   **** OUTPUT FROM DALTON SHELL SCRIPT
+   ******************************************* 
+
+   DALTON release Dalton2022.0-dev (2022)
+
+   Invocation: /home3/hb-qchav/Dalton/dalton -noarch -d -get molden.inp -o ethene_opt_ethene.out ethene_opt ethene
+
+   Tue Mar 26 11:04:34 CET 2024
+
+   Calculation: ethene_opt_ethene  (input files: ethene_opt.dal and ethene.mol)
+   PID        : 829169
+   Input dir  : /home1/s4925076/Sample_inputs_dalton2024_updated/ex1/31G/ethene_opt
+   Scratch dir: /tmp/DALTON_scratch_s4925076/ethene_opt_ethene_829169
+
+
+ DALTON: default work memory size used.            64000000
+
+ Work memory size (LMWORK+2):    64000002 =  488.28 megabytes; node   0
+
+   0: Directories for basis set searches:
+     /home1/s4925076/Sample_inputs_dalton2024_updated/ex1/31G/ethene_opt:/home3/hb-qchav/Dalton/basis
+ethene_opt_ethene.tar.gz has not been created and has thus not been copied to /home1/s4925076/Sample_inputs_dalton2024_updated/ex1/31G/ethene_opt
+Copying files requested with -get back from scratch directory
+'molden.inp' -> '/home1/s4925076/Sample_inputs_dalton2024_updated/ex1/31G/ethene_opt/ethene_opt_ethene.molden.inp'
+Output is in /home1/s4925076/Sample_inputs_dalton2024_updated/ex1/31G/ethene_opt/ethene_opt_ethene.out as requested in input.
+
+   Tue Mar 26 11:04:39 CET 2024
+   ***************************************** 

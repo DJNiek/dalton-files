@@ -1,0 +1,30 @@
+
+   ******************************************* 
+   **** OUTPUT FROM DALTON SHELL SCRIPT
+   ******************************************* 
+
+   DALTON release Dalton2022.0-dev (2022)
+
+   Invocation: /home3/hb-qchav/Dalton/dalton -noarch -d -get molden.inp -o dft_blyp_h2o_cc-pVDZ_nosym.out dft_blyp h2o_cc-pVDZ_nosym
+
+   Tue Mar 26 12:45:25 CET 2024
+
+   Calculation: dft_blyp_h2o_cc-pVDZ_nosym  (input files: dft_blyp.dal and h2o_cc-pVDZ_nosym.mol)
+   PID        : 850631
+   Input dir  : /home1/s4925076/Sample_inputs_dalton2024_updated/ex4/h2o_blyp
+   Scratch dir: /tmp/DALTON_scratch_s4925076/dft_blyp_h2o_cc-pVDZ_nosym_850631
+
+
+ DALTON: default work memory size used.            64000000
+
+ Work memory size (LMWORK+2):    64000002 =  488.28 megabytes; node   0
+
+   0: Directories for basis set searches:
+     /home1/s4925076/Sample_inputs_dalton2024_updated/ex4/h2o_blyp:/home3/hb-qchav/Dalton/basis
+dft_blyp_h2o_cc-pVDZ_nosym.tar.gz has not been created and has thus not been copied to /home1/s4925076/Sample_inputs_dalton2024_updated/ex4/h2o_blyp
+Copying files requested with -get back from scratch directory
+'molden.inp' -> '/home1/s4925076/Sample_inputs_dalton2024_updated/ex4/h2o_blyp/dft_blyp_h2o_cc-pVDZ_nosym.molden.inp'
+Output is in /home1/s4925076/Sample_inputs_dalton2024_updated/ex4/h2o_blyp/dft_blyp_h2o_cc-pVDZ_nosym.out as requested in input.
+
+   Tue Mar 26 12:45:29 CET 2024
+   ***************************************** 
