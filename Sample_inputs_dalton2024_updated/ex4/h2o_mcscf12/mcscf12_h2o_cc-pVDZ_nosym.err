@@ -1,0 +1,36 @@
+
+   ******************************************* 
+   **** OUTPUT FROM DALTON SHELL SCRIPT
+   ******************************************* 
+
+   DALTON release Dalton2022.0-dev (2022)
+
+   Invocation: /home3/hb-qchav/Dalton/dalton -noarch -d -get molden.inp -o mcscf12_h2o_cc-pVDZ_nosym.out mcscf12 h2o_cc-pVDZ_nosym
+
+   Sat Apr 13 12:02:46 CEST 2024
+
+   Calculation: mcscf12_h2o_cc-pVDZ_nosym  (input files: mcscf12.dal and h2o_cc-pVDZ_nosym.mol)
+   PID        : 4063018
+   Input dir  : /home1/s4925076/dalton-files/Sample_inputs_dalton2024_updated/ex4/h2o_mcscf12
+   Scratch dir: /tmp/DALTON_scratch_s4925076/mcscf12_h2o_cc-pVDZ_nosym_4063018
+
+
+ DALTON: default work memory size used.            64000000
+
+ Work memory size (LMWORK+2):    64000002 =  488.28 megabytes; node   0
+
+   0: Directories for basis set searches:
+     /home1/s4925076/dalton-files/Sample_inputs_dalton2024_updated/ex4/h2o_mcscf12:/home3/hb-qchav/Dalton/basis
+mcscf12_h2o_cc-pVDZ_nosym.tar.gz has not been created and has thus not been copied to /home1/s4925076/dalton-files/Sample_inputs_dalton2024_updated/ex4/h2o_mcscf12
+Copying files requested with -get back from scratch directory
+'molden.inp' -> '/home1/s4925076/dalton-files/Sample_inputs_dalton2024_updated/ex4/h2o_mcscf12/mcscf12_h2o_cc-pVDZ_nosym.molden.inp'
+Output is in /home1/s4925076/dalton-files/Sample_inputs_dalton2024_updated/ex4/h2o_mcscf12/mcscf12_h2o_cc-pVDZ_nosym.out as requested in input.
+----------------------------------------------------------
+3 WARNINGS have been issued by DALTON,
+output from 'grep -n -i WARNING'  (max 10 warnings):
+697: WARNING, occupation of active orbitals not available
+1360: NOTE:    1 warnings have been issued.
+1361: Check output, result, and error files for "WARNING".
+
+   Sat Apr 13 12:04:20 CEST 2024
+   ***************************************** 

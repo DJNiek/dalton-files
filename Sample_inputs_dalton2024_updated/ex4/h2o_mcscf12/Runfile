@@ -12,7 +12,7 @@
 # Adjust your filenames here !!  #
 ##################################
 
-DAL=mcscf
+DAL=mcscf12
 MOL=h2o_cc-pVDZ_nosym
 
 ##################################
