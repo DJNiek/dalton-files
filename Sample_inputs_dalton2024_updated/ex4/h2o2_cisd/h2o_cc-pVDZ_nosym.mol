@@ -1,0 +1,13 @@
+BASIS
+cc-pVDZ
+Calculation of excitation energies through ABACUS
+
+Atomtypes=2 Multiplicity=1 Charge=0 Nosymmetry
+Charge=8.0 Atoms=2
+O1   0.00000             0.00000              0.1241444240
+O2   94.0000             0.00000              0.1241444240
+Charge=1.0 Atoms=4
+H1   0.00000             1.43153              -0.985265576
+H2   0.00000            -1.43153              -0.985265576
+H3   94.0000             1.43153              -0.985265576
+H4   94.0000            -1.43153              -0.985265576
