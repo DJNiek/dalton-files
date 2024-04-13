@@ -1,0 +1,30 @@
+
+   ******************************************* 
+   **** OUTPUT FROM DALTON SHELL SCRIPT
+   ******************************************* 
+
+   DALTON release Dalton2022.0-dev (2022)
+
+   Invocation: /home3/hb-qchav/Dalton/dalton -noarch -d -get molden.inp -o allyl_opt_allyl.out allyl_opt allyl
+
+   Sat Apr 13 14:16:07 CEST 2024
+
+   Calculation: allyl_opt_allyl  (input files: allyl_opt.dal and allyl.mol)
+   PID        : 3672395
+   Input dir  : /home1/s4925076/dalton-files/Sample_inputs_dalton2024_updated/ex2good/31Gstarstar
+   Scratch dir: /tmp/DALTON_scratch_s4925076/allyl_opt_allyl_3672395
+
+
+ DALTON: default work memory size used.            64000000
+
+ Work memory size (LMWORK+2):    64000002 =  488.28 megabytes; node   0
+
+   0: Directories for basis set searches:
+     /home1/s4925076/dalton-files/Sample_inputs_dalton2024_updated/ex2good/31Gstarstar:/home3/hb-qchav/Dalton/basis
+allyl_opt_allyl.tar.gz has not been created and has thus not been copied to /home1/s4925076/dalton-files/Sample_inputs_dalton2024_updated/ex2good/31Gstarstar
+Copying files requested with -get back from scratch directory
+'molden.inp' -> '/home1/s4925076/dalton-files/Sample_inputs_dalton2024_updated/ex2good/31Gstarstar/allyl_opt_allyl.molden.inp'
+Output is in /home1/s4925076/dalton-files/Sample_inputs_dalton2024_updated/ex2good/31Gstarstar/allyl_opt_allyl.out as requested in input.
+
+   Sat Apr 13 14:16:36 CEST 2024
+   ***************************************** 
